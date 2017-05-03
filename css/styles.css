@@ -1,0 +1,17 @@
+/*Foundation tweaks*/
+
+.off-canvas{
+  background-color: #242145;
+}
+
+.off-canvas li a {
+  color: white;
+}
+
+.off-canvas li a:hover {
+  color: lightblue;
+}
+
+.title-bar {
+  background-color: #242145;
+}
