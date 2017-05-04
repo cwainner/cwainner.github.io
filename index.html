@@ -11,12 +11,7 @@
   </head>
   <body>
     <div class="off-canvas-wrapper">
-      <div class="title-bar">
-        <div class="title-bar-left">
-          <button class="menu-icon" type="button" data-toggle="offCanvas"></button>
-          <span class="title-bar-title">Chris Wainner</span>
-        </div>
-      </div>
+      <button class="button menuButton" type="button" data-toggle="offCanvas">Menu</button>
       <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
         <button class="close-button" aria-label="Close menu" type="button" data-close><span aria-hidden="true">&times;</span></button>
         <ul class="vertical menu">
@@ -29,11 +24,16 @@
         <div class="row">
           <div class="small-12 columns">
             <div class="card">
-              <div class="card-divider">
+              <div class="card-section aboutSection" id="aboutSectionCard">
                 <h1>About</h1>
-              </div>
-              <div class="card-section">
                 <p>lorem ipsum</p>
+              </div>
+            </div>
+            <div class="modal" id="aboutSectionModal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>About Me</h2>
+                <p>I am an enthusiastic young professional who has a passion for programming, embedded systems, and all things electronic. In my spare time I enjoy writing programs, tinkering with computers, hiking, and music.</p>
               </div>
             </div>
           </div>
